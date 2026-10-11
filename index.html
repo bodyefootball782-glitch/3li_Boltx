@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10071d">
+  <meta name="description" content="BOLTX — 3li_Boltx | Gaming, FiveM, Minecraft and more.">
+  <title>BOLTX | 3li_Boltx</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="grid-glow" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="BOLTX Home"><span class="brand-mark">B</span><span>BOL<span>TX</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#home">الرئيسية</a><a href="#channels">القنوات</a><a href="#latest">آخر فيديو</a><a href="#gallery">المعرض</a>
+    </nav>
+    <a class="live-pill" href="https://kick.com/3li_boltx" target="_blank" rel="noopener"><i></i> تابعني على KICK</a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap reveal" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> GAMING • STREAMING • COMMUNITY</div>
+        <h1 class="hero-title">BOL<span>TX</span><b class="title-spark">✦</b></h1>
+        <p class="handle">3li_Boltx</p>
+        <p class="hero-desc">اللعبة بتبدأ هنا.<br>FiveM، Minecraft وكل اللي جاي أقوى. 🎮</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://kick.com/3li_boltx" target="_blank" rel="noopener">شاهدني على KICK <span>↗</span></a>
+          <a class="btn btn-ghost" href="#channels">اكتشف قنواتي <span>↓</span></a>
+        </div>
+        <div class="game-tags"><span>GTA V / FiveM</span><span>MINECRAFT</span><span>VARIETY GAMING</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="portrait-frame">
+          <img src="assets/images/boltx-main.webp" alt="الصورة الرئيسية للستريمر BOLTX" fetchpriority="high" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="portrait-placeholder"><span class="placeholder-b">B</span><strong>حط صورتك هنا</strong><small>assets/images/boltx-main.webp</small></div>
+          <div class="portrait-label"><span class="mini-dot"></span> PLAYER: BOLTX</div>
+        </div>
+        <div class="float-chip chip-fivem"><span>🚘</span><div><b>FIVEM</b><small>ROLEPLAY MODE</small></div></div>
+        <div class="float-chip chip-mc"><span>▦</span><div><b>MINECRAFT</b><small>BUILD YOUR WORLD</small></div></div>
+        <div class="hero-cross cross-one">✦</div><div class="hero-cross cross-two">✧</div>
+      </div>
+    </section>
+
+    <section class="section-wrap channels-section reveal" id="channels">
+      <div class="section-heading"><div><p class="eyebrow">STAY CONNECTED</p><h2>كل عوالم <span>BOLTX</span></h2></div><p>اختار منصتك وخليك قريب من كل جديد.</p></div>
+      <div class="channel-grid">
+        <a class="channel-card whatsapp" href="https://whatsapp.com/channel/0029VbB9LtsJUM2UGof3w52a" target="_blank" rel="noopener"><span class="channel-icon">◉</span><span class="channel-info"><b>WhatsApp Channel</b><small>أخبار وتحديثات القناة</small></span><span class="arrow">↗</span></a>
+        <a class="channel-card youtube" href="https://youtube.com/@3liboltx?si=auL3JFyh3xKsPJiw" target="_blank" rel="noopener"><span class="channel-icon">▶</span><span class="channel-info"><b>YouTube Main</b><small>القناة الأساسية</small></span><span class="arrow">↗</span></a>
+        <a class="channel-card live" href="https://youtube.com/@liveboltx?si=lsW5SWwQPAPMxFli" target="_blank" rel="noopener"><span class="channel-icon">▷</span><span class="channel-info"><b>YouTube Live</b><small>الليڤات والبثوث</small></span><span class="arrow">↗</span></a>
+        <a class="channel-card tiktok" href="https://www.tiktok.com/@3li_boltx" target="_blank" rel="noopener"><span class="channel-icon">♪</span><span class="channel-info"><b>TikTok</b><small>@3li_boltx</small></span><span class="arrow">↗</span></a>
+        <a class="channel-card kick" href="https://kick.com/3li_boltx" target="_blank" rel="noopener"><span class="channel-icon">K</span><span class="channel-info"><b>KICK</b><small>منصة البث الأساسية</small></span><span class="arrow">↗</span></a>
+        <a class="channel-card instagram" href="https://www.instagram.com/3li_boltx/" target="_blank" rel="noopener"><span class="channel-icon">◎</span><span class="channel-info"><b>Instagram</b><small>@3li_boltx</small></span><span class="arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section-wrap latest-section reveal" id="latest">
+      <div class="section-heading"><div><p class="eyebrow">FRESH CONTENT</p><h2>آخر فيديو <span>نزل</span></h2></div><a class="text-link" href="https://youtube.com/@3liboltx/videos" target="_blank" rel="noopener">كل الفيديوهات ↗</a></div>
+      <div class="latest-card">
+        <a class="video-preview" id="latestVideoLink" href="https://youtube.com/@3liboltx/videos" target="_blank" rel="noopener" aria-label="مشاهدة أحدث فيديو">
+          <div class="video-placeholder"><span class="play-button">▶</span><b>أضف فيديو BOLTX هنا</b><small>هنعرض الفيديو لما تضيف الـ ID في script.js</small></div>
+          <div class="video-overlay"><span>▶</span> WATCH VIDEO</div>
+        </a>
+        <div class="latest-copy"><span class="content-label">YOUTUBE • MAIN CHANNEL</span><h3 id="latestTitle">أحدث فيديوهات BOLTX</h3><p>آخر لحظات FiveM، مغامرات Minecraft، وأقوى محتوى الجيمينج.</p><a class="btn btn-primary" id="latestButton" href="https://youtube.com/@3liboltx/videos" target="_blank" rel="noopener">شاهد على يوتيوب ↗</a><small class="hint">تحديث الفيديو: من ملف script.js — موضح في README.</small></div>
+      </div>
+    </section>
+
+    <section class="section-wrap gallery-section reveal" id="gallery">
+      <div class="section-heading"><div><p class="eyebrow">BEHIND THE STREAM</p><h2>عالم <span>BOLTX</span> بالصور</h2></div><p>خمس صور تختارهم بنفسك.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-large" data-image="assets/images/boltx-1.webp" aria-label="عرض الصورة الأولى"><img src="assets/images/boltx-1.webp" alt="BOLTX صورة 1" loading="lazy"><span class="gallery-fallback">PHOTO 01</span><i>↗</i></button>
+        <button class="gallery-item" data-image="assets/images/boltx-2.webp" aria-label="عرض الصورة الثانية"><img src="assets/images/boltx-2.webp" alt="BOLTX صورة 2" loading="lazy"><span class="gallery-fallback">PHOTO 02</span><i>↗</i></button>
+        <button class="gallery-item" data-image="assets/images/boltx-3.webp" aria-label="عرض الصورة الثالثة"><img src="assets/images/boltx-3.webp" alt="BOLTX صورة 3" loading="lazy"><span class="gallery-fallback">PHOTO 03</span><i>↗</i></button>
+        <button class="gallery-item" data-image="assets/images/boltx-4.webp" aria-label="عرض الصورة الرابعة"><img src="assets/images/boltx-4.webp" alt="BOLTX صورة 4" loading="lazy"><span class="gallery-fallback">PHOTO 04</span><i>↗</i></button>
+        <button class="gallery-item" data-image="assets/images/boltx-5.webp" aria-label="عرض الصورة الخامسة"><img src="assets/images/boltx-5.webp" alt="BOLTX صورة 5" loading="lazy"><span class="gallery-fallback">PHOTO 05</span><i>↗</i></button>
+      </div>
+    </section>
+    <section class="closing-cta reveal"><div class="cta-glow"></div><p class="eyebrow">THE GAME NEVER ENDS</p><h2>نشوفك في <span>الجيم</span> 💜</h2><p>تابع BOLTX على منصاتك المفضلة ومتفوّتش الجديد.</p><a class="btn btn-primary" href="https://kick.com/3li_boltx" target="_blank" rel="noopener">JOIN THE ACTION ↗</a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">B</span><span>BOL<span>TX</span></span></a><p>صُنع بحب لعالم الجيمينج <span>💜</span></p><a href="#home">العودة للأعلى ↑</a></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة" hidden><button class="lightbox-close" id="lightboxClose" aria-label="إغلاق">×</button><img id="lightboxImage" src="" alt="صورة BOLTX مكبرة"></div>
+  <script src="script.js"></script>
+</body>
+</html>

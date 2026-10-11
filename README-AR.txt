@@ -1,0 +1,38 @@
+BOLTX WEBSITE — تعليمات سريعة
+================================
+
+1) افتح index.html لمعاينة الموقع محليًا، أو ارفع كل الملفات على GitHub ثم اربط المستودع بـ Vercel.
+
+2) إضافة الصورة الرئيسية:
+   ضع صورتك الرئيسية داخل assets/images باسم:
+   boltx-main.webp
+
+3) إضافة صور المعرض الخمسة:
+   assets/images/boltx-1.webp
+   assets/images/boltx-2.webp
+   assets/images/boltx-3.webp
+   assets/images/boltx-4.webp
+   assets/images/boltx-5.webp
+
+   يُفضّل تحويل الصور إلى WebP لتقليل الحجم وتسريع الموقع. لو عندك JPG أو PNG، تقدر تستخدمها أيضًا لكن لازم تغيّر الامتداد في index.html.
+
+4) إضافة أحدث فيديو يوتيوب:
+   افتح script.js وابحث عن:
+   const LATEST_YOUTUBE_VIDEO_ID = "";
+   ضع معرّف الفيديو بين علامتي التنصيص. مثال: لو الرابط
+   https://www.youtube.com/watch?v=ABC123xyz
+   يكون المعرّف ABC123xyz.
+   ملاحظة: العرض الحالي يدوي؛ التحديث التلقائي الحقيقي لأحدث فيديو يحتاج ربط YouTube Data API أو خدمة وسيطة آمنة. لا تضع مفتاح API سريًا في ملفات الواجهة.
+
+5) روابط القنوات الحالية مضافة بالفعل:
+   TikTok: @3li_boltx
+   YouTube الأساسي: @3liboltx
+   YouTube الليفات: @liveboltx
+   WhatsApp: قناة Boltx
+   KICK: 3li_boltx
+   Instagram: @3li_boltx
+
+6) الأداء:
+   الأنيميشن خفيفة، عدد الجزيئات محدود، الصور تُحمّل تدريجيًا، ويوجد دعم لتقليل الحركة من إعدادات الجهاز.
+
+لو عايز تغيّر أي رابط أو نص، افتح index.html وابحث عن القسم المطلوب وعدّله.
