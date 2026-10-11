@@ -4,15 +4,15 @@ BOLTX WEBSITE — تعليمات سريعة
 1) افتح index.html لمعاينة الموقع محليًا، أو ارفع كل الملفات على GitHub ثم اربط المستودع بـ Vercel.
 
 2) إضافة الصورة الرئيسية:
-   ضع صورتك الرئيسية داخل assets/images باسم:
+   ضع صورتك الرئيسية في المجلد الرئيسي بجانب index.html باسم:
    boltx-main.webp
 
 3) إضافة صور المعرض الخمسة:
-   assets/images/boltx-1.webp
-   assets/images/boltx-2.webp
-   assets/images/boltx-3.webp
-   assets/images/boltx-4.webp
-   assets/images/boltx-5.webp
+   boltx-1.webp
+   boltx-2.webp
+   boltx-3.webp
+   boltx-4.webp
+   boltx-5.webp
 
    يُفضّل تحويل الصور إلى WebP لتقليل الحجم وتسريع الموقع. لو عندك JPG أو PNG، تقدر تستخدمها أيضًا لكن لازم تغيّر الامتداد في index.html.
 
