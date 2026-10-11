@@ -1,6 +1,6 @@
 // BOLTX website settings
 // Put the YouTube video ID (the part after v= in a video URL) below to feature it.
-const LATEST_YOUTUBE_VIDEO_ID = "zAOfPOjLenKg1dgy"; // Example: "dQw4w9WgXcQ"
+const LATEST_YOUTUBE_VIDEO_ID = "_bCSdCamM1U"; // Example: "dQw4w9WgXcQ"
 
 (() => {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
